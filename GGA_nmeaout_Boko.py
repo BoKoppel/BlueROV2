@@ -125,7 +125,7 @@ def main():
                 send_udp(sock, args.ip, args.port, sentence)
             if ser:
                 ser.write(sentence + "\n")
-            time.sleep(1)
+            time.sleep(0.1)
 
 
 if __name__ == "__main__":
